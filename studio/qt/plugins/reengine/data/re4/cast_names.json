@@ -1,0 +1,59 @@
+{
+  "_comment": "Friendly names for the cast catalog (build_cast_catalog.py applies them). 'looks' are 1-based look numbers -> names; unnamed looks get '<name> N'. Edit freely and rebuild.",
+  "ch0a0z0": { "name": "Leon", "group": "Main cast" },
+  "ch0a1z0": { "name": "Ashley (playable)", "group": "Main cast" },
+  "ch2a1z0": { "name": "Ashley", "group": "Main cast" },
+  "ch2a200": { "name": "Ada", "group": "Main cast" },
+  "ch2a3z0": { "name": "Luis", "group": "Main cast" },
+  "ch3a8z0": { "name": "Ada (Separate Ways)", "group": "Main cast" },
+  "ch6i0z0": { "name": "Leon (Mercenaries)", "group": "Main cast" },
+  "ch2a600": { "name": "Wesker", "group": "Main cast", "looks": { "1": "Wesker", "2": "Wesker 2" } },
+  "ch2a7z0": { "name": "Merchant", "group": "Main cast", "looks": { "1": "Merchant" } },
+  "ch1b7z0": { "name": "Krauser", "group": "Main cast", "looks": { "1": "Krauser", "2": "Krauser 2", "3": "Krauser 3" } },
+  "ch2b0z0": { "name": "Police officer 1", "group": "People", "looks": { "1": "Police officer 1", "2": "Police officer 1 · costume 01" } },
+  "ch2b1z0": { "name": "Police officer 2", "group": "People", "looks": { "1": "Police officer 2" } },
+  "ch2b200": { "name": "Hunnigan", "group": "People", "looks": { "1": "Hunnigan" } },
+  "ch2b600": { "name": "Ramón Salazar", "group": "Main cast", "looks": { "1": "Ramón Salazar" } },
+  "ch2b8z0": { "name": "Saddler", "group": "Main cast", "looks": { "1": "Saddler", "2": "Saddler 2", "3": "Saddler 3" } },
+  "ch2bbz0": { "name": "Village woman (intro cutscene)", "group": "People", "looks": { "1": "Village woman (intro cutscene)" } },
+
+  "ch1c0z0": { "name": "Villagers", "group": "Villagers", "looks": {
+    "1": "Tomás", "2": "Ernesto", "3": "Ignacio", "4": "Rodrigo",
+    "5": "Lucía", "6": "Marisol", "7": "Carmen", "8": "Rosa (headband)",
+    "9": "Joaquín", "10": "Brute (cow head)",
+    "11": "Álvaro", "12": "Benito", "13": "Cristóbal", "14": "Diego", "15": "Emilio (cap)", "16": "Fermín", "17": "Gonzalo (hat)", "18": "Hilario", "19": "Isidro", "20": "Javier",
+    "21": "Lorenzo", "22": "Mateo", "23": "Nicolás", "24": "Octavio", "25": "Pascual", "26": "Ramiro", "27": "Sebastián", "28": "Teodoro", "29": "Ulises", "30": "Vicente",
+    "31": "Ana", "32": "Beatriz", "33": "Consuelo", "34": "Dolores", "35": "Elena", "36": "Francisca", "37": "Gloria", "38": "Inés", "39": "Josefa", "40": "Leonor",
+    "41": "Manuel", "42": "Néstor", "43": "Orlando", "44": "Pedro", "45": "Quique", "46": "Raúl", "47": "Salvador", "48": "Tadeo", "49": "Valentín", "50": "Ximena",
+    "51": "Yolanda", "52": "Zacarías", "53": "Anselmo", "54": "Bernardo" } },
+  "ch1c0z1": { "name": "Cultists (castle)", "group": "Cultists", "looks": {
+    "1": "Zealot (woman) 1", "2": "Zealot (woman) 2", "3": "Zealot 3", "4": "Zealot 4", "5": "Zealot leader (goat skull)", "6": "Zealot 6" } },
+  "ch1c0z2": { "name": "Soldiers (island)", "group": "Soldiers", "looks": {
+    "1": "Soldier 1", "2": "Soldier 2", "3": "Soldier (gas mask)", "4": "Soldier (welding helmet)", "5": "Soldier (welding helmet) 2", "6": "Soldier (welding helmet) 3",
+    "7": "Brute soldier", "8": "Soldier 8", "9": "Soldier 9", "10": "Soldier 10", "11": "Soldier 11", "12": "Soldier 12", "13": "Soldier 13", "14": "Soldier 14", "15": "Soldier 15",
+    "16": "Soldier (gas mask) 2", "17": "Soldier 17", "18": "Soldier 18", "19": "Soldier 19", "20": "Soldier 20" } },
+  "ch1c8z0": { "name": "Brutes", "group": "Villagers", "looks": {
+    "1": "Brute (pig head)", "2": "Brute (cow head)", "3": "Brute (cow head) 2", "4": "Brute (pig head) 2", "5": "Brute (cow head) 3", "6": "Brute (cow head) 4" } },
+  "ch1d1z1": { "name": "Bella sisters (chainsaw)", "group": "Villagers", "looks": {
+    "1": "Bella sister 1", "2": "Bella sister 2", "3": "Chainsaw sister 3", "4": "Chainsaw sister 4", "5": "Chainsaw sister 5" } },
+
+  "ch1d0z0": { "name": "Garrador", "group": "Enemies", "looks": { "1": "Garrador", "2": "Garrador (helmet)", "3": "Garrador 3", "4": "Garrador (helmet) 2" } },
+  "ch1d2z0": { "name": "Colmillos (dog)", "group": "Enemies", "looks": { "1": "Colmillos 1", "2": "Colmillos 2" } },
+  "ch1d3z0": { "name": "Novistador", "group": "Enemies", "looks": { "1": "Novistador" } },
+  "ch1d6z0": { "name": "Armadura (armour knight)", "group": "Enemies", "looks": {
+    "1": "Armadura 1", "2": "Armadura 2", "3": "Armadura 3", "4": "Armadura 4", "5": "Armadura (gold)", "6": "Armadura (gold) 2", "7": "Armadura 7", "8": "Armadura 8" } },
+
+  "ch1f0z0": { "name": "El Gigante", "group": "Creatures & bosses", "looks": { "1": "El Gigante", "2": "El Gigante (armoured)" } },
+  "ch1f2z0": { "name": "Verdugo", "group": "Creatures & bosses", "looks": { "1": "Verdugo" } },
+  "ch1f4z1": { "name": "Méndez (phase 1)", "group": "Creatures & bosses", "looks": { "1": "Méndez (phase 1)" } },
+  "ch1f5z1": { "name": "Méndez (phase 2)", "group": "Creatures & bosses", "looks": { "1": "Méndez (phase 2)" } },
+  "ch1f6z0": { "name": "Salazar (boss form)", "group": "Creatures & bosses", "looks": { "1": "Salazar (boss form)", "2": "Salazar (boss form) 2" } },
+  "ch1f7z0": { "name": "Krauser (mutated)", "group": "Creatures & bosses", "looks": { "1": "Krauser (first mutation)", "2": "Krauser (second mutation)" } },
+  "ch1f8z0": { "name": "Saddler (first mutation)", "group": "Creatures & bosses", "looks": { "1": "Saddler (first mutation)", "2": "Saddler (first mutation) 2", "3": "Saddler (first mutation) 3" } },
+  "ch1fcz0": { "name": "Saddler (final form)", "group": "Creatures & bosses", "looks": { "1": "Saddler (final form)", "2": "Saddler (final form) 2", "3": "Saddler (final form) 3", "4": "Saddler (final form) 4" } },
+
+  "ch8g0z0": { "name": "Dog", "group": "Animals", "looks": { "1": "Dog" } },
+  "ch8g2z0": { "name": "Snake", "group": "Animals", "looks": { "1": "Snake", "2": "Snake 2" } },
+  "ch8g3z0": { "name": "Cow", "group": "Animals", "looks": { "1": "Cow" } },
+  "ch8gaz0": { "name": "Pig", "group": "Animals", "looks": { "1": "Pig", "2": "Pig 2" } }
+}

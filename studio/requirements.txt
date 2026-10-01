@@ -1,0 +1,4 @@
+Pillow==12.3.0
+numpy==2.5.3
+soundcard==0.4.6
+mcp==2.2.0

@@ -1,0 +1,14 @@
+{
+  "_comment": "Resident Evil 2 places (objectroot/scene/location/<code>) and the name the Stages tab shows. A place left out (or empty) is not listed. Edit freely.",
+  "locations": {
+    "rpd": "Police Station",
+    "rpd_b1": "Police Station Basement",
+    "wastewater": "Sewers",
+    "crocodiliaarea": "Sewers (Alligator)",
+    "orphanapproach": "Orphanage Approach",
+    "orphanasylum": "Orphanage",
+    "laboratory": "NEST Laboratory",
+    "laboratoryundermost": "NEST Lower Levels",
+    "opening3": "Raccoon City Streets"
+  }
+}

@@ -1,0 +1,6 @@
+-r studio/requirements.txt
+
+aqtinstall==3.3.0
+cmake==4.4.3
+ninja==1.13.2
+luaparser==4.2.0

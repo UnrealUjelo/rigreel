@@ -1,0 +1,63 @@
+# Packaged application and generated builds
+/app/
+/studio/qt/build/
+/studio/qt/build-*/
+/studio/qt/CMakeFiles/
+/studio/qt/CMakeCache.txt
+/studio/qt/cmake_install.cmake
+/studio/qt/build.log
+/studio/qt/deploy.log
+/studio/qt/studio.log
+
+# Generated media, QA output, extraction work, and retired experiments
+/archive/
+/extract/
+/qa/
+/studio/shots/
+/studio/*.png
+/studio/*.mp4
+/studio/*.mov
+/studio/*.log
+/studio/Recover game window.bat
+/studio/recover_game_window.py
+/tools/thumbs/
+
+# Locally installed tools and dependencies
+/tools/venv/
+/tools/REasy/
+/tools/REasy-src/
+/tools/Noesis/
+/tools/vgmstream/
+
+# Local settings and launchers
+/Director Studio.lnk
+/RigReel Studio.lnk
+/mod/Director_Phase0.lua
+/studio/qt/DirectorStudio.ini
+/.vs/
+/.vscode/
+/.idea/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

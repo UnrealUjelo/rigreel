@@ -1,0 +1,765 @@
+{
+ "_about": "Named areas of Resident Evil 4 (2023): chunk number (40201 = st40_201), the in-game map label and a standing point in world metres. Read from the game map data (chainsaw.LevelMapDataManager point texts) by the Director runtime.",
+ "areas": [
+  {
+   "stage": 44210,
+   "name": "Abandoned Factory",
+   "map": "Village",
+   "pos": [
+    -0.3,
+    -0.8,
+    190.0
+   ]
+  },
+  {
+   "stage": 46111,
+   "name": "Boat House",
+   "map": "Village",
+   "pos": [
+    336.0,
+    -6.0,
+    91.0
+   ]
+  },
+  {
+   "stage": 47200,
+   "name": "Checkpoint",
+   "map": "Village",
+   "pos": [
+    158.0,
+    2.7,
+    -216.0
+   ]
+  },
+  {
+   "stage": 45200,
+   "name": "Church",
+   "map": "Village",
+   "pos": [
+    103.0,
+    4.0,
+    98.0
+   ]
+  },
+  {
+   "stage": 40201,
+   "name": "Farm",
+   "map": "Village",
+   "pos": [
+    48.0,
+    3.3,
+    -72.0
+   ]
+  },
+  {
+   "stage": 45400,
+   "name": "Fish Farm",
+   "map": "Village",
+   "pos": [
+    144.0,
+    -6.0,
+    56.0
+   ]
+  },
+  {
+   "stage": 43500,
+   "name": "Forest Altar",
+   "map": "Village",
+   "pos": [
+    229.0,
+    2.7,
+    -159.0
+   ]
+  },
+  {
+   "stage": 40510,
+   "name": "Hunter's Lodge",
+   "map": "Village",
+   "pos": [
+    -182.0,
+    6.0,
+    80.0
+   ]
+  },
+  {
+   "stage": 43400,
+   "name": "Lake",
+   "map": "Village",
+   "pos": [
+    298.0,
+    -6.39,
+    -20.0
+   ]
+  },
+  {
+   "stage": 43303,
+   "name": "Lakeside Settlement",
+   "map": "Village",
+   "pos": [
+    219.0,
+    -4.4,
+    -123.0
+   ]
+  },
+  {
+   "stage": 46900,
+   "name": "Large Cave Shrine",
+   "map": "Village",
+   "pos": [
+    256.0,
+    -7.0,
+    152.0
+   ]
+  },
+  {
+   "stage": 46111,
+   "name": "Mural Cave",
+   "map": "Village",
+   "pos": [
+    298.0,
+    -4.0,
+    148.0
+   ]
+  },
+  {
+   "stage": 45301,
+   "name": "Quarry",
+   "map": "Village",
+   "pos": [
+    182.0,
+    9.0,
+    138.0
+   ]
+  },
+  {
+   "stage": 45301,
+   "name": "Shooting Range",
+   "map": "Village",
+   "pos": [
+    200.0,
+    9.0,
+    115.0
+   ]
+  },
+  {
+   "stage": 47410,
+   "name": "Slaughterhouse",
+   "map": "Village",
+   "pos": [
+    287.0,
+    9.9,
+    -224.0
+   ]
+  },
+  {
+   "stage": 46110,
+   "name": "Small Cave Shrine",
+   "map": "Village",
+   "pos": [
+    402.0,
+    -5.8,
+    -144.0
+   ]
+  },
+  {
+   "stage": 40212,
+   "name": "Town Hall",
+   "map": "Village",
+   "pos": [
+    35.0,
+    1.1,
+    12.3
+   ]
+  },
+  {
+   "stage": 44400,
+   "name": "Valley",
+   "map": "Village",
+   "pos": [
+    72.0,
+    -5.0,
+    216.0
+   ]
+  },
+  {
+   "stage": 43311,
+   "name": "Villa",
+   "map": "Village",
+   "pos": [
+    56.0,
+    5.5,
+    -162.0
+   ]
+  },
+  {
+   "stage": 44110,
+   "name": "Village Chief's Manor",
+   "map": "Village",
+   "pos": [
+    7.0,
+    8.9,
+    104.0
+   ]
+  },
+  {
+   "stage": 40200,
+   "name": "Village Square",
+   "map": "Village",
+   "pos": [
+    -1.0,
+    0.75,
+    4.0
+   ]
+  },
+  {
+   "stage": 56200,
+   "name": "Ancient Chantry",
+   "map": "Castle",
+   "pos": [
+    259.0,
+    50.0,
+    -110.5
+   ]
+  },
+  {
+   "stage": 54300,
+   "name": "Antechamber",
+   "map": "Castle",
+   "pos": [
+    265.0,
+    31.52,
+    56.2
+   ]
+  },
+  {
+   "stage": 52202,
+   "name": "Armory",
+   "map": "Castle",
+   "pos": [
+    122.75,
+    24.25,
+    8.57
+   ]
+  },
+  {
+   "stage": 50401,
+   "name": "Audience Chamber",
+   "map": "Castle",
+   "pos": [
+    -142.0,
+    12.0,
+    52.0
+   ]
+  },
+  {
+   "stage": 54200,
+   "name": "Ballroom",
+   "map": "Castle",
+   "pos": [
+    184.5,
+    27.27,
+    56.0
+   ]
+  },
+  {
+   "stage": 51502,
+   "name": "Bindery",
+   "map": "Castle",
+   "pos": [
+    -2.0,
+    27.87,
+    -36.5
+   ]
+  },
+  {
+   "stage": 55200,
+   "name": "Blast Furnace",
+   "map": "Castle",
+   "pos": [
+    140.5,
+    -11.59,
+    40.0
+   ]
+  },
+  {
+   "stage": 51600,
+   "name": "Castle Battlements",
+   "map": "Castle",
+   "pos": [
+    30.0,
+    25.0,
+    -100.0
+   ]
+  },
+  {
+   "stage": 50300,
+   "name": "Castle Gate",
+   "map": "Castle",
+   "pos": [
+    -221.0,
+    0.02,
+    52.78
+   ]
+  },
+  {
+   "stage": 50201,
+   "name": "Chapel",
+   "map": "Castle",
+   "pos": [
+    -277.0,
+    -3.9,
+    80.0
+   ]
+  },
+  {
+   "stage": 56102,
+   "name": "Clock Tower",
+   "map": "Castle",
+   "pos": [
+    183.66,
+    30.47,
+    -126.0
+   ]
+  },
+  {
+   "stage": 51200,
+   "name": "Courtyard",
+   "map": "Castle",
+   "pos": [
+    67.4,
+    21.95,
+    37.43
+   ]
+  },
+  {
+   "stage": 54400,
+   "name": "Depths",
+   "map": "Castle",
+   "pos": [
+    290.0,
+    -38.74,
+    70.0
+   ]
+  },
+  {
+   "stage": 52401,
+   "name": "Dining Hall",
+   "map": "Castle",
+   "pos": [
+    141.0,
+    27.45,
+    15.0
+   ]
+  },
+  {
+   "stage": 56302,
+   "name": "Dock",
+   "map": "Castle",
+   "pos": [
+    325.8,
+    -6.55,
+    -70.5
+   ]
+  },
+  {
+   "stage": 50501,
+   "name": "Dungeons",
+   "map": "Castle",
+   "pos": [
+    -123.12,
+    8.6,
+    22.75
+   ]
+  },
+  {
+   "stage": 52303,
+   "name": "Gallery",
+   "map": "Castle",
+   "pos": [
+    91.5,
+    27.45,
+    76.5
+   ]
+  },
+  {
+   "stage": 52101,
+   "name": "Grand Hall",
+   "map": "Castle",
+   "pos": [
+    114.0,
+    24.38,
+    40.5
+   ]
+  },
+  {
+   "stage": 55300,
+   "name": "Hive",
+   "map": "Castle",
+   "pos": [
+    180.0,
+    -74.41,
+    46.0
+   ]
+  },
+  {
+   "stage": 53200,
+   "name": "Library",
+   "map": "Castle",
+   "pos": [
+    131.5,
+    28.29,
+    76.0
+   ]
+  },
+  {
+   "stage": 53302,
+   "name": "Mausoleum",
+   "map": "Castle",
+   "pos": [
+    67.5,
+    12.22,
+    108.5
+   ]
+  },
+  {
+   "stage": 55103,
+   "name": "Mines",
+   "map": "Castle",
+   "pos": [
+    118.0,
+    -8.46,
+    -29.0
+   ]
+  },
+  {
+   "stage": 52300,
+   "name": "Shooting Range",
+   "map": "Castle",
+   "pos": [
+    114.8,
+    24.25,
+    47.5
+   ]
+  },
+  {
+   "stage": 55100,
+   "name": "Shooting Range",
+   "map": "Castle",
+   "pos": [
+    209.75,
+    -18.7,
+    5.6
+   ]
+  },
+  {
+   "stage": 55202,
+   "name": "Stopover",
+   "map": "Castle",
+   "pos": [
+    195.5,
+    -31.56,
+    -190.0
+   ]
+  },
+  {
+   "stage": 54301,
+   "name": "Throne Room",
+   "map": "Castle",
+   "pos": [
+    300.0,
+    30.66,
+    56.2
+   ]
+  },
+  {
+   "stage": 50504,
+   "name": "Treasury",
+   "map": "Castle",
+   "pos": [
+    -119.5,
+    18.95,
+    22.7
+   ]
+  },
+  {
+   "stage": 54405,
+   "name": "Underground Laboratory",
+   "map": "Castle",
+   "pos": [
+    182.0,
+    -30.34,
+    4.0
+   ]
+  },
+  {
+   "stage": 50601,
+   "name": "Water Hall",
+   "map": "Castle",
+   "pos": [
+    -52.21,
+    14.0,
+    63.0
+   ]
+  },
+  {
+   "stage": 51404,
+   "name": "Wine Cellar",
+   "map": "Castle",
+   "pos": [
+    7.5,
+    25.13,
+    -3.3
+   ]
+  },
+  {
+   "stage": 64101,
+   "name": "Amber Storeroom",
+   "map": "Island",
+   "pos": [
+    56.0,
+    26.0,
+    -174.0
+   ]
+  },
+  {
+   "stage": 66103,
+   "name": "Bulwark Gate",
+   "map": "Island",
+   "pos": [
+    106.0,
+    33.0,
+    -240.0
+   ]
+  },
+  {
+   "stage": 64102,
+   "name": "Campsite",
+   "map": "Island",
+   "pos": [
+    81.0,
+    29.0,
+    -149.0
+   ]
+  },
+  {
+   "stage": 62100,
+   "name": "Cargo Depot",
+   "map": "Island",
+   "pos": [
+    42.0,
+    17.0,
+    -106.0
+   ]
+  },
+  {
+   "stage": 66104,
+   "name": "Cliffside Ruins",
+   "map": "Island",
+   "pos": [
+    70.0,
+    33.0,
+    -263.0
+   ]
+  },
+  {
+   "stage": 61301,
+   "name": "Dissection",
+   "map": "Island",
+   "pos": [
+    114.0,
+    19.0,
+    -90.0
+   ]
+  },
+  {
+   "stage": 61101,
+   "name": "Facility 1 Storage",
+   "map": "Island",
+   "pos": [
+    51.0,
+    13.0,
+    -69.0
+   ]
+  },
+  {
+   "stage": 63100,
+   "name": "Facility 2",
+   "map": "Island",
+   "pos": [
+    8.0,
+    17.0,
+    -100.0
+   ]
+  },
+  {
+   "stage": 61301,
+   "name": "Freezer",
+   "map": "Island",
+   "pos": [
+    91.0,
+    19.0,
+    -92.0
+   ]
+  },
+  {
+   "stage": 61101,
+   "name": "Holding Cell",
+   "map": "Island",
+   "pos": [
+    40.0,
+    13.0,
+    -67.0
+   ]
+  },
+  {
+   "stage": 61204,
+   "name": "Incubation Lab",
+   "map": "Island",
+   "pos": [
+    78.5,
+    9.0,
+    -52.0
+   ]
+  },
+  {
+   "stage": 68203,
+   "name": "Loading Docks",
+   "map": "Island",
+   "pos": [
+    -210.0,
+    66.0,
+    -192.0
+   ]
+  },
+  {
+   "stage": 68105,
+   "name": "Luis's Laboratory",
+   "map": "Island",
+   "pos": [
+    -77.0,
+    57.0,
+    -136.0
+   ]
+  },
+  {
+   "stage": 65100,
+   "name": "Ruins",
+   "map": "Island",
+   "pos": [
+    154.0,
+    24.0,
+    -172.0
+   ]
+  },
+  {
+   "stage": 68100,
+   "name": "Sanctuary",
+   "map": "Island",
+   "pos": [
+    -113.0,
+    61.0,
+    -170.0
+   ]
+  },
+  {
+   "stage": 67104,
+   "name": "Sanctuary Approach",
+   "map": "Island",
+   "pos": [
+    -26.0,
+    42.0,
+    -180.0
+   ]
+  },
+  {
+   "stage": 61106,
+   "name": "Shooting Range",
+   "map": "Island",
+   "pos": [
+    62.0,
+    13.0,
+    -84.0
+   ]
+  },
+  {
+   "stage": 67100,
+   "name": "Specimen Storage",
+   "map": "Island",
+   "pos": [
+    7.0,
+    40.0,
+    -226.0
+   ]
+  },
+  {
+   "stage": 66101,
+   "name": "Stronghold",
+   "map": "Island",
+   "pos": [
+    145.0,
+    33.0,
+    -270.0
+   ]
+  },
+  {
+   "stage": 61100,
+   "name": "Surveillance",
+   "map": "Island",
+   "pos": [
+    28.0,
+    6.0,
+    -59.0
+   ]
+  },
+  {
+   "stage": 61300,
+   "name": "Systems",
+   "map": "Island",
+   "pos": [
+    109.0,
+    15.0,
+    -42.0
+   ]
+  },
+  {
+   "stage": 59101,
+   "name": "Underground Passage",
+   "map": "Island",
+   "pos": [
+    -260.0,
+    32.0,
+    -208.0
+   ]
+  },
+  {
+   "stage": 61504,
+   "name": "Utilities",
+   "map": "Island",
+   "pos": [
+    79.0,
+    15.0,
+    -80.0
+   ]
+  },
+  {
+   "stage": 63108,
+   "name": "Waste Disposal",
+   "map": "Island",
+   "pos": [
+    -15.0,
+    22.0,
+    -128.0
+   ]
+  },
+  {
+   "stage": 60100,
+   "name": "Wharf",
+   "map": "Island",
+   "pos": [
+    -28.0,
+    0.0,
+    14.0
+   ]
+  }
+ ]
+}

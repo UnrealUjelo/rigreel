@@ -1,0 +1,6 @@
+{
+    "id": "reengine",
+    "name": "RE Engine",
+    "description": "Reads the files of Capcom RE Engine games you own: characters, props, animations and maps.",
+    "games": ["re4", "re2rt", "re3rt", "re7rt", "re8", "re9", "dmc5", "sf6", "dd2", "mhrise", "mhwilds", "oniwots", "kunitsugami"]
+}

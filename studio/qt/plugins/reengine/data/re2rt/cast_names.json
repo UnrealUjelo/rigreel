@@ -1,0 +1,19 @@
+{
+  "_comment": "Friendly names for Resident Evil 2's characters (code -> name, group). Codes without an entry show as 'Survivor plNNNN' / 'Creature emNNNN'. A look can be named with '<code>/<costume>' (e.g. 'pl0000/costume_1'). Edit freely.",
+  "pl0000": { "name": "Leon", "group": "Main cast" },
+  "pl1000": { "name": "Claire", "group": "Main cast" },
+  "pl2000": { "name": "Ada", "group": "Main cast" },
+  "pl3000": { "name": "Sherry", "group": "Main cast" },
+  "pl4000": { "name": "HUNK", "group": "Main cast" },
+  "pl4100": { "name": "Tofu", "group": "Main cast" },
+  "pl5000": { "name": "Marvin", "group": "People" },
+  "pl5300": { "name": "Annette", "group": "People" },
+  "pl6000": { "name": "William Birkin", "group": "People" },
+  "pl6400": { "name": "Mayor Warren", "group": "People" },
+  "pl7700": { "name": "Kendo", "group": "People" },
+  "em0000": { "name": "Zombie", "group": "Zombies" },
+  "em0100": { "name": "Zombie (woman)", "group": "Zombies" },
+  "em0200": { "name": "Zombie (heavy)", "group": "Zombies" },
+  "em3000": { "name": "Licker", "group": "Creatures & bosses" },
+  "em6200": { "name": "Mr. X", "group": "Creatures & bosses" }
+}

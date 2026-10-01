@@ -1,0 +1,64 @@
+name: Source audit
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check Python syntax
+        run: python -m compileall -q studio tools
+
+      - name: Check Lua syntax
+        shell: pwsh
+        run: |
+          python -m pip install --disable-pip-version-check --quiet luaparser==4.2.0
+          @'
+          from pathlib import Path
+          from luaparser import ast
+          files = list(Path("mod").rglob("*.lua"))
+          for path in files:
+              ast.parse(path.read_text(encoding="utf-8"))
+          print(f"Parsed {len(files)} Lua files")
+          '@ | python -
+
+      - name: Check shell syntax
+        shell: bash
+        run: bash -n studio/qt/build.sh studio/qt/run.sh studio/qt/package.sh tools/scripts/deploy.sh
+
+      - name: Check repository hygiene
+        shell: pwsh
+        run: |
+          $files = @(git ls-files)
+          $forbidden = @($files | Where-Object {
+            $_ -match '^(app|archive|extract|qa|studio/qt/build|studio/shots|tools/(venv|REasy|REasy-src|Noesis|vgmstream|thumbs))/' -or
+            $_ -match '\.(pak|mp4|mov|log)$'
+          })
+          if ($forbidden.Count) {
+            Write-Error "Generated, downloaded, or game-content paths are tracked:`n$($forbidden -join "`n")"
+            exit 1
+          }
+
+          $large = @($files | Where-Object { (Get-Item -LiteralPath $_).Length -gt 50MB })
+          if ($large.Count) {
+            Write-Error "Files over 50 MiB are tracked:`n$($large -join "`n")"
+            exit 1
+          }
+
+          git grep -n -I -E 'C:\\Users\\|C:/Users/|BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}' -- . ':!.github/workflows/source-audit.yml'
+          if ($LASTEXITCODE -eq 0) {
+            Write-Error "A personal path or secret-like value is present in tracked text."
+            exit 1
+          }
+          if ($LASTEXITCODE -gt 1) { exit $LASTEXITCODE }
