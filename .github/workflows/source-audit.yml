@@ -62,3 +62,4 @@ jobs:
             exit 1
           }
           if ($LASTEXITCODE -gt 1) { exit $LASTEXITCODE }
+          exit 0
