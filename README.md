@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/branding/rigreel-logo.png" alt="RigReel Studio logo" width="180">
+</p>
+
 # RigReel Studio
 
 RigReel Studio is an open-source desktop animation and machinima tool for making films with games you legally own. It reads supported assets from an installed game, lets you stage and animate them, and renders the result without redistributing the game's content.
